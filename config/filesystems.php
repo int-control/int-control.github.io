@@ -56,6 +56,10 @@ return [
             'throw' => false,
         ],
 
+        'export' => [
+            'driver' => 'local',
+            'root' => base_path('docs'),
+        ],
     ],
 
     /*
