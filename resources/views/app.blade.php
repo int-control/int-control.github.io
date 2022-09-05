@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Int control 2000</title>
+  <title>Int Control</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -51,7 +51,7 @@
         <div class="container-fluid">
           <div class="row align-items-center">
             <!-- Logo -->
-            <div class="col-xl-2 col-lg-2 col-md-1">
+            <div class="col-xl-2 col-lg-2 col-md-1" style="opacity: 0">
               <div class="logo">
                 <a href="{{ url('/') }}" class="big-logo">
                   <img src="{{ asset('assets/img/logo/logo.png') }}" alt="">
@@ -80,7 +80,10 @@
             <!-- Main-menu Button -->
             <div class="col-xl-2 col-lg-2 col-md-3">
               <div class="header-right-btn f-right d-none d-lg-block">
-                <a href="{{ url('/contacts') }}" class="btn">{{ __('app.nav.contacts') }}</a>
+                <a href="{{ url('/contacts') }}" class="btn"
+                   style="background: #27AE60;">
+                    {{ __('app.nav.contacts') }}
+                </a>
               </div>
             </div>
 

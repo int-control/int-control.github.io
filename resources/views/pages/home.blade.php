@@ -12,8 +12,8 @@
           <div class="row">
             <div class="col-lg-11">
               <div class="hero__caption">
-                <h1 data-animation="fadeInUp" data-delay=".5s">Int</h1>
-                <h1 data-animation="fadeInUp" data-delay=".5s">Control</h1>
+                <h1 data-animation="fadeInUp" data-delay=".5s" style="color: #27AE60">Int</h1>
+                <h1 data-animation="fadeInUp" data-delay=".5s" style="color: #27AE60">Control</h1>
                 {{-- <div class="stock-text" data-animation="fadeInUp" data-delay=".8s"> --}}
                 {{-- 	<h2>Control 2000</h2> --}}
                 {{-- 	<h2>Control 2000</h2> --}}
