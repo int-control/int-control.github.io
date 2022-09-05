@@ -16,7 +16,7 @@
 	{{-- 	</div> --}}
 	{{-- </div> --}}
 
-	<section class="contact-with-area" data-background="assets/img/gallery/section-bg2.jpg">
+	<section class="contact-with-area" data-background="{{ asset('assets/img/gallery/section-bg2.jpg') }}">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-8 col-lg-9 offset-xl-1 offset-lg-1">

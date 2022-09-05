@@ -5,7 +5,7 @@
   <div class="slider-area">
     <div class="slider-active">
       <div class="single-slider hero-overly slider-height2 d-flex align-items-center"
-           data-background="assets/img/hero/h1_hero.jpg">
+           data-background="{{ asset('assets/img/hero/h1_hero.jpg') }}">
 
         <div class="container">
           <div class="row">

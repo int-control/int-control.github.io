@@ -5,7 +5,8 @@
   <div class="slider-area">
     <div class="slider-active">
       <div class="single-slider hero-overly slider-height2 d-flex align-items-center"
-           data-background="assets/img/hero/h1_hero.jpg">
+           style="background-size: cover"
+           data-background="{{ asset('assets/img/hero/h1_hero.jpg') }}">
 
         <div class="container">
           <div class="row">
@@ -204,7 +205,7 @@
   <!-- Project Area End -->
 
   <!-- contact with us Start -->
-  <section class="contact-with-area" data-background="assets/img/gallery/section-bg2.jpg">
+  <section class="contact-with-area" data-background="{{ asset('assets/img/gallery/section-bg2.jpg') }}">
     <div class="container">
       <div class="row">
         <div class="col-xl-8 col-lg-9 offset-xl-1 offset-lg-1">
@@ -219,22 +220,22 @@
               <p style="font-size: 20px">
                 <i class="fa-solid fa-location-dot"></i>
                 <span class="pl-2">
-									1407 гр. София, кв. "Кръстова вада", ул. "Ген. Иван Колев" №31
-								</span>
+                  1407 гр. София, кв. "Кръстова вада", ул. "Ген. Иван Колев" №31
+				</span>
               </p>
 
               <p style="font-size: 20px">
                 <i class="fa-solid fa-envelope"></i>
                 <span class="pl-2">
-									<a href="mailto:office@int-control.com">office@int-control.com</a>
-								</span>
+				  <a href="mailto:office@int-control.com">office@int-control.com</a>
+				</span>
               </p>
 
               <p style="font-size: 20px">
                 <i class="fa-solid fa-phone"></i>
                 <span class="pl-2">
-									<a href="tel:+359888494276">0888 494 276</a>
-								</span>
+				  <a href="tel:+359888494276">0888 494 276</a>
+				</span>
               </p>
             </div>
           </div>
